@@ -1,0 +1,10 @@
+.women-on-green {
+  grid-area: 1 / 2 / 9 / 4;
+}
+
+@media(max-width: 1200px){
+  .women-on-green {
+    grid-area: auto;
+    grid-column: 1 / 3;
+  }
+}

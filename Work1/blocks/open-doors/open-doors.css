@@ -1,0 +1,9 @@
+.open-doors {
+  grid-area: 6 / 4 / 13 / 5;
+}
+
+@media(max-width: 1200px){
+  .open-doors {
+    grid-area: 5 / 1 / 7 / 2;
+  }
+}

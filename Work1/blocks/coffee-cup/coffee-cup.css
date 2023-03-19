@@ -1,0 +1,10 @@
+.coffee-cup {
+  grid-area: 9 / 2 / 13 / 3;
+}
+
+@media(max-width: 1200px) {
+  .coffee-cup {
+    grid-area: auto;
+    grid-column: 2 / 3;
+  }
+}

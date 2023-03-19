@@ -1,0 +1,10 @@
+.man-black-white {
+  grid-area: 9 / 5 / 13 / 6;
+}
+
+@media(max-width: 1200px){
+  .man-black-white {
+    grid-area: auto;
+    grid-column: 2 / 3;
+  }
+}

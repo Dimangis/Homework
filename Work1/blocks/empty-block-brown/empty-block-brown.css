@@ -1,0 +1,10 @@
+.empty-block-brown {
+  grid-area: 9 / 3 / 13 / 4;
+  background-color: #A6806B;
+}
+
+@media(max-width: 1200px){
+  .empty-block-brown {
+    grid-column: 1 / 2;
+  }
+}
